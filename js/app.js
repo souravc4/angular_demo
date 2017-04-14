@@ -2,7 +2,7 @@ var app = angular.module('nApp', ['ngRoute']);
 app.config(function($routeProvider) {
     $routeProvider
     .when("/", {
-        templateUrl : "index.html",
+        templateUrl : "home.htm",
         controller : "indexCtrl"
     })
     .when("/blog", {
